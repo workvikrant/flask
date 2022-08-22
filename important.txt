@@ -1,0 +1,8 @@
+add a Procfile for production enviornmet
+  create Procfile with no extension ( p capital )
+  add =     web: gunicorn app:app       # first app is name of your py file
+
+add a requirnment.txt file
+   in terminal just run 
+   pip freeze > requirenments.txt
+   
